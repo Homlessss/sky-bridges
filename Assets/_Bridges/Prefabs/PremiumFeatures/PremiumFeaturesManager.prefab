@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3084269457297025494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3084269457297025500}
+  - component: {fileID: 3084269457297025501}
+  - component: {fileID: 3084269457297025503}
+  - component: {fileID: 3084269457297025498}
+  - component: {fileID: 3084269457297025497}
+  - component: {fileID: 3084269457297025496}
+  - component: {fileID: 3084269457297025502}
+  m_Layer: 0
+  m_Name: PremiumFeaturesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3084269457297025500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3084269457297025501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59708d2f79292394cba78f7c535d270a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enablePremiumFeatures: 1
+--- !u!114 &3084269457297025503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f6b91140fa6eb48bbf15f0df8f01a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestMode: 0
+  gamesPlayedAfterInstall: 2
+  gamesPlayedBetweenRequests: 10
+  daysAfterInstall: 14
+  daysBetweenRequests: 14
+--- !u!114 &3084269457297025498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47830b8d66c74670b0edccbd3721389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  removeAds: Remove_Ads
+  coinPacks:
+  - productName: Coins_500
+    priceString: 0.99$
+    coinValue: 500
+  - productName: Coins_1000
+    priceString: 1.99$
+    coinValue: 1000
+  - productName: Coins_2000
+    priceString: 2.99$
+    coinValue: 2000
+  - productName: Coins_4000
+    priceString: 3.99$
+    coinValue: 4000
+  - productName: Coins_8000
+    priceString: 4.99$
+    coinValue: 8000
+  - productName: Coins_10000
+    priceString: 5.99$
+    coinValue: 10000
+--- !u!114 &3084269457297025497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbe9fd9e217e4be8b7f0593f9d77052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disable: 0
+  leaderboardName: Score
+--- !u!114 &3084269457297025496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0350242eae7d436cbc1dbc271373b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disable: 0
+  achievements: []
+--- !u!114 &3084269457297025502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084269457297025494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cfd332001feb34186e7b6494161225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Exit Game
+  message: Are you sure you want to exit?
+  yesButton: Yes
+  noButton: No

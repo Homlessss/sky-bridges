@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1030083531630",
+    "project_id": "touch-2-heaven-craftrun",
+    "storage_bucket": "touch-2-heaven-craftrun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030083531630:android:c1250d4890748741b1e77f",
+        "android_client_info": {
+          "package_name": "com.Vinferno.SkyCraftRun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030083531630-afv30q2m8t3h07md2tj486a996ptcpn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Vinferno.SkyCraftRun",
+            "certificate_hash": "147cf75bb0419b0159bf4eca8a3841e11a68f935"
+          }
+        },
+        {
+          "client_id": "1030083531630-4sobrpguh5koh3r615sa8hk7bt9g0k1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeKUU1DXFByMOsJSZwYSPifBdSB8IOBJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030083531630-4sobrpguh5koh3r615sa8hk7bt9g0k1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8469177233838439~6585618594"
+    }
+  ],
+  "configuration_version": "1"
+}
